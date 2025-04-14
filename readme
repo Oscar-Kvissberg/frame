@@ -34,3 +34,13 @@ NEXTAUTH_SECRET=
 NEXTAUTH_URL=
 
 
+
+to copy this shit code into another repo... just write the following in your terminal: 
+
+git remote add other-repo https://github.com/oscar-kvissberg/frame.git
+git fetch other-repo
+git merge --allow-unrelated-histories other-repo/main
+
+
+
+
